@@ -35,7 +35,6 @@
   register: mysql_anonymous_hosts
   changed_when: false
   check_mode: no
-  ignore_errors: true
 
 - name: ensure anonymous users are removed
   mysql_user:
